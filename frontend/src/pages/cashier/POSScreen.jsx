@@ -435,8 +435,8 @@ const POSScreen = () => {
       const { data: payData } = await getPosPayHereHash({ orderId: order._id, amount: order.totalAmount });
 
       // 3. Submit to PayHere
-      const FRONTEND = 'https://beauty.smartlover.lk';
-      const BACKEND = 'https://smartlover.smartlover.lk';
+      const FRONTEND = 'https://smart-lover.netlify.app';
+      const BACKEND = 'https://samart-lover.onrender.com';
       const form = document.createElement('form');
       const isSandbox = payData.sandbox;
       form.method = 'POST';

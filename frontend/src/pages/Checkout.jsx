@@ -252,8 +252,8 @@ const Checkout = () => {
   };
 
   const initiatePayHere = (payData, order) => {
-    const FRONTEND = 'https://beauty.smartlover.lk';
-    const BACKEND = 'https://smartlover.smartlover.lk';
+    const FRONTEND = 'https://smart-lover.netlify.app';
+    const BACKEND = 'https://samart-lover.onrender.com';
     const payment = {
       sandbox: payData.sandbox,
       merchant_id: payData.merchant_id,

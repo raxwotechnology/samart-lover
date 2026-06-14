@@ -29,8 +29,8 @@ const bootstrapUsers = async () => {
     // Create admin
     const admin = await User.create({
       name: 'Smartlover Admin',
-      email: 'admin@zage.com',
-      password: await bcrypt.hash('admin123', salt),
+      email: 'smartloveradmin@gmail.com',
+      password: await bcrypt.hash('admin 123', salt),
       role: 'admin',
       phone: '+94771234567',
       isActive: true,
@@ -40,7 +40,7 @@ const bootstrapUsers = async () => {
     // Create manager
     const manager = await User.create({
       name: 'Nisha Perera',
-      email: 'manager@zage.com',
+      email: 'manager@smartlover.lk',
       password: await bcrypt.hash('manager123', salt),
       role: 'manager',
       phone: '+94772345678',
@@ -51,7 +51,7 @@ const bootstrapUsers = async () => {
     // Create cashier
     const cashier = await User.create({
       name: 'Dilshan Fernando',
-      email: 'cashier@zage.com',
+      email: 'cashier@smartlover.lk',
       password: await bcrypt.hash('cashier123', salt),
       role: 'cashier',
       phone: '+94773456789',
@@ -63,7 +63,7 @@ const bootstrapUsers = async () => {
     // Create delivery
     const delivery = await User.create({
       name: 'Kamal Silva',
-      email: 'delivery@zage.com',
+      email: 'delivery@smartlover.lk',
       password: await bcrypt.hash('delivery123', salt),
       role: 'deliveryGuy',
       phone: '+94774567890',
@@ -75,7 +75,7 @@ const bootstrapUsers = async () => {
     // Create stock employee
     const stockEmp = await User.create({
       name: 'Sahan Jayawardena',
-      email: 'stock@zage.com',
+      email: 'stock@smartlover.lk',
       password: await bcrypt.hash('stock123', salt),
       role: 'stockEmployee',
       phone: '+94775678901',
@@ -87,7 +87,7 @@ const bootstrapUsers = async () => {
     // Create a second manager for store2
     const manager2 = await User.create({
       name: 'Amara Weerasinghe',
-      email: 'manager2@zage.com',
+      email: 'manager2@smartlover.lk',
       password: await bcrypt.hash('manager123', salt),
       role: 'manager',
       phone: '+94776789012',
@@ -100,12 +100,12 @@ const bootstrapUsers = async () => {
     console.log('  BOOTSTRAP COMPLETE - User Accounts');
     console.log('═══════════════════════════════════════════');
     console.log('');
-    console.log('  Admin:     admin@zage.com / admin123');
-    console.log('  Manager:   manager@zage.com / manager123');
-    console.log('  Manager 2: manager2@zage.com / manager123');
-    console.log('  Cashier:   cashier@zage.com / cashier123');
-    console.log('  Delivery:  delivery@zage.com / delivery123');
-    console.log('  Stock:     stock@zage.com / stock123');
+    console.log('  Admin:     smartloveradmin@gmail.com / admin 123');
+    console.log('  Manager:   manager@smartlover.lk / manager123');
+    console.log('  Manager 2: manager2@smartlover.lk / manager123');
+    console.log('  Cashier:   cashier@smartlover.lk / cashier123');
+    console.log('  Delivery:  delivery@smartlover.lk / delivery123');
+    console.log('  Stock:     stock@smartlover.lk / stock123');
     console.log('');
     console.log('Now run: node seed.js');
     console.log('');
